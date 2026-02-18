@@ -2077,6 +2077,625 @@ window.INATURA_DATA = {
         {"type":"callout","tone":"info","title":"Se você quiser, eu faço a importação por você","text":"É só me enviar o conteúdo completo (pode ser em partes ou em arquivo). Eu organizo, padronizo e devolvo um novo ZIP pronto para subir no GitHub."}
       ]
     }
+,
+    {
+      "id": "cha-tomilho",
+      "module": "chas",
+      "title": "Tomilho",
+      "category": "Imunidade",
+      "image": "assets/img/teas/tomilho.webp",
+      "tags": ["garganta", "tosse", "resfriado"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Tomilho",
+          "subtitle": "Auxilia em resfriados, tosse leve e desconforto na garganta (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão: 1 c. chá das folhas em 200 ml de água quente. Abafar 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 a 2× ao dia por até 5 dias." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-salvia-garganta",
+      "module": "chas",
+      "title": "Sálvia (garganta)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/salvia_garganta.webp",
+      "tags": ["garganta", "inflamacao", "gargarejo"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Sálvia (garganta)",
+          "subtitle": "Apoia a saúde da garganta e pode ajudar em inflamações leves (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão: 1 c. chá das folhas em 200 ml. Abafar 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia OU gargarejos mornos (uso curto)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-oregano",
+      "module": "chas",
+      "title": "Orégano",
+      "category": "Imunidade",
+      "image": "assets/img/teas/oregano.webp",
+      "tags": ["congestao", "respiratorio", "aromatico"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Orégano",
+          "subtitle": "Apoio em congestão e inflamações leves (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão: 1 c. chá em 200 ml. Abafar 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 a 2× ao dia por ciclos curtos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-malvarisco-raiz",
+      "module": "chas",
+      "title": "Malvarisco (raiz)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/malvarisco.webp",
+      "tags": ["tosse", "garganta", "mucosas"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Malvarisco (raiz)",
+          "subtitle": "Conforta mucosas: garganta irritada e tosse seca (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão mais longa: 1 c. chá da raiz em 200 ml. Abafar 10–12 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 a 2× ao dia, morno." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-alcacuz-raiz",
+      "module": "chas",
+      "title": "Alcaçuz (raiz)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/alcacuz.webp",
+      "tags": ["garganta", "tosse", "cautela"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Alcaçuz (raiz)",
+          "subtitle": "Suaviza garganta e pode ajudar na tosse (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Decocção leve: 1 c. chá da raiz em 200 ml. Ferver 5 min, abafar 5 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia por poucos dias." }
+          ]
+        },
+        {
+          "type": "alert",
+          "tone": "warning",
+          "title": "Atenção",
+          "text": "Evitar em pressão alta e gestação sem orientação. Use por pouco tempo."
+        }
+      ]
+    },
+    {
+      "id": "cha-guacatonga",
+      "module": "chas",
+      "title": "Guaçatonga",
+      "category": "Imunidade",
+      "image": "assets/img/teas/guacatonga.webp",
+      "tags": ["inflamacao", "garganta", "suporte"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Guaçatonga",
+          "subtitle": "Apoio anti-inflamatório e desconforto de garganta (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão: 1 c. chá das folhas em 200 ml. Abafar 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia por ciclos curtos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-bardana-raiz",
+      "module": "chas",
+      "title": "Bardana (raiz)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/bardana.webp",
+      "tags": ["depurativo", "inflamacao", "suporte"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Bardana (raiz)",
+          "subtitle": "Tradicionalmente usada como “depurativa” e apoio em inflamações (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Decocção: 1 c. chá da raiz em 200 ml. Ferver 8–10 min, abafar 5 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia por 7–14 dias, com pausas." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-assa-peixe",
+      "module": "chas",
+      "title": "Assa-peixe",
+      "category": "Imunidade",
+      "image": "assets/img/teas/assa_peixe.webp",
+      "tags": ["tosse", "catarro", "respiratorio"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Assa-peixe",
+          "subtitle": "Auxilia na tosse com catarro e irritação respiratória (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão: 1 c. chá das folhas em 200 ml. Abafar 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 a 2× ao dia por períodos curtos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-angico-casca",
+      "module": "chas",
+      "title": "Angico (casca)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/angico.webp",
+      "tags": ["garganta", "tosse", "uso_curto"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Angico (casca)",
+          "subtitle": "Uso popular para garganta e tosse (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Decocção: 1 c. chá da casca em 200 ml. Ferver 10 min, abafar 5 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia (uso curto)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-cumaru",
+      "module": "chas",
+      "title": "Cumaru (sementes/casca)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/cumaru.webp",
+      "tags": ["respiratorio", "uso_moderado", "cautela"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Cumaru (sementes/casca)",
+          "subtitle": "Uso tradicional para desconforto respiratório (uso moderado)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Decocção leve: ferver 5–8 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia por poucos dias." }
+          ]
+        },
+        {
+          "type": "alert",
+          "tone": "warning",
+          "title": "Atenção",
+          "text": "Evitar em gestantes sem orientação."
+        }
+      ]
+    },
+    {
+      "id": "cha-tanchagem-melissa",
+      "module": "chas",
+      "title": "Tanchagem com melissa",
+      "category": "Imunidade",
+      "image": "assets/img/teas/tanchagem_melissa.webp",
+      "tags": ["garganta", "tensao", "conforto"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Tanchagem com melissa",
+          "subtitle": "Conforto para garganta irritada + relaxamento leve",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão combinada: 1/2 c. chá de cada em 200 ml. Abafar 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 a 2× ao dia." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-gengibre-cravo",
+      "module": "chas",
+      "title": "Gengibre com cravo",
+      "category": "Imunidade",
+      "image": "assets/img/teas/gengibre_cravo.webp",
+      "tags": ["resfriado", "aquecimento", "gripe_leve"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Gengibre com cravo",
+          "subtitle": "Apoio em resfriados e aquecimento corporal (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Decocção: 2–3 rodelas de gengibre + 2 cravos em 200 ml. Ferver 5 min, abafar 5 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-casca-abacaxi-hortela",
+      "module": "chas",
+      "title": "Casca de abacaxi com hortelã",
+      "category": "Imunidade",
+      "image": "assets/img/teas/abacaxi_hortela.webp",
+      "tags": ["hidratacao", "respiratorio", "leve"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Casca de abacaxi com hortelã",
+          "subtitle": "Apoio respiratório leve e hidratação (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Ferver a casca bem lavada por 8–10 min. Desligar, adicionar hortelã e abafar 5–8 min."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 a 2× ao dia." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-curcuma-limao-suave",
+      "module": "chas",
+      "title": "Cúrcuma com limão (suave)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/curcuma_limao.webp",
+      "tags": ["antiinflamatorio", "suporte", "leve"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Cúrcuma com limão (suave)",
+          "subtitle": "Apoio anti-inflamatório leve (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Decocção rápida: 1/2 c. chá de cúrcuma em 200 ml por 3–5 min. Adicionar limão após amornar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-canela-de-velho",
+      "module": "chas",
+      "title": "Canela-de-velho",
+      "category": "Imunidade",
+      "image": "assets/img/teas/canela_de_velho.webp",
+      "tags": ["desconforto", "inflamacao", "uso_curto"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Canela-de-velho",
+          "subtitle": "Tradicional para inflamações e desconfortos corporais (uso popular)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão: 1 c. chá das folhas em 200 ml. Abafar 10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia por ciclos curtos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-hortela-pimenta-limao",
+      "module": "chas",
+      "title": "Hortelã-pimenta com limão",
+      "category": "Imunidade",
+      "image": "assets/img/teas/hortela_pimenta_limao.webp",
+      "tags": ["frescor", "vias_aereas", "conforto"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Hortelã-pimenta com limão",
+          "subtitle": "Sensação de vias aéreas mais livres e frescor (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão de hortelã-pimenta por 8–10 min. Adicionar limão após amornar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 a 2× ao dia." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-casca-laranja-gengibre",
+      "module": "chas",
+      "title": "Casca de laranja com gengibre",
+      "category": "Imunidade",
+      "image": "assets/img/teas/laranja_gengibre.webp",
+      "tags": ["resfriado", "garganta", "aromatico"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Casca de laranja com gengibre",
+          "subtitle": "Apoio em gripes leves e garganta (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Ferver a casca por 5–8 min. Adicionar gengibre e abafar 5 min, depois coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-propolis-infusao-morna",
+      "module": "chas",
+      "title": "Própolis (em infusão morna)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/propolis.webp",
+      "tags": ["garganta", "uso_curto", "alergia"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Própolis (em infusão morna)",
+          "subtitle": "Apoio à garganta (produto apícola, uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Faça uma infusão suave (ex.: camomila) e pingue extrato de própolis após amornar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1× ao dia, uso curto." }
+          ]
+        },
+        {
+          "type": "alert",
+          "tone": "warning",
+          "title": "Atenção",
+          "text": "Cautela em pessoas com alergia a produtos de abelha."
+        }
+      ]
+    },
+    {
+      "id": "cha-erva-baleeira-imunidade",
+      "module": "chas",
+      "title": "Erva-baleeira (uso leve)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/erva_baleeira.webp",
+      "tags": ["antiinflamatorio", "suporte", "uso_curto"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Erva-baleeira (uso leve)",
+          "subtitle": "Tradicionalmente usada como anti-inflamatório (uso popular)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão leve das folhas por 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia por ciclos curtos." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cha-quebra-pedra-leve",
+      "module": "chas",
+      "title": "Quebra-pedra (uso leve)",
+      "category": "Imunidade",
+      "image": "assets/img/teas/quebra_pedra.webp",
+      "tags": ["suporte", "bem_estar", "pausas"],
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Quebra-pedra (uso leve)",
+          "subtitle": "Apoio anti-inflamatório e bem-estar geral (uso tradicional)",
+          "badge": "Chá"
+        },
+        {
+          "type": "steps",
+          "title": "Como fazer",
+          "steps": [
+            "Infusão: 1 c. chá das partes aéreas em 200 ml. Abafar 8–10 min e coar."
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Como tomar",
+          "items": [
+            { "title": "Sugestão", "text": "1 xícara ao dia por 7–14 dias, com pausas." }
+          ]
+        }
+      ]
+    }
 
   ]
 };

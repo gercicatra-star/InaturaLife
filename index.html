@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#4E9EFF" />
+  <title>InaturaLife</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-badge" aria-hidden="true"></div>
+        <div id="brandName">InaturaLife</div>
+      </div>
+      <div class="actions">
+        <button class="btn" id="btnAccount">Conta</button>
+        <button class="btn primary" id="btnPremium">Premium</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="app">
+    <div class="search">
+      <input id="searchInput" placeholder="Buscar (ex.: camomila, intestino, magnésio)..." />
+      <button class="btn" id="btnClear">Limpar</button>
+    </div>
+
+    <div id="viewHome" class="view">
+      <div class="grid">
+        <div class="hero">
+          <img src="assets/img/capa-chas.webp" alt="Capa chás" id="heroImg"/>
+          <div class="hero-content">
+            <div>
+              <h2 class="hero-title" id="heroTitle">Bem-vinda(o)</h2>
+              <p class="hero-sub" id="heroSub">Escolha uma área e comece com calma. Gratuito = amostra por área. Premium = conteúdo completo.</p>
+            </div>
+            <div class="pill" id="heroPill">Acesso por login</div>
+          </div>
+        </div>
+
+        <div class="cards" id="homeCards"></div>
+      </div>
+    </div>
+
+    <div id="viewSection" class="view" style="display:none">
+      <div class="hero" style="margin-bottom:12px">
+        <img src="assets/img/capa-chas.webp" alt="" id="sectionImg"/>
+        <div class="hero-content">
+          <div>
+            <h2 class="hero-title" id="sectionTitle">Seção</h2>
+            <p class="hero-sub" id="sectionSub">Conteúdos em cards, com visual leve e prático.</p>
+          </div>
+          <div class="pill" id="sectionPill">Grátis</div>
+        </div>
+      </div>
+
+      <div class="tabs" id="tabs"></div>
+      <div class="list" id="list"></div>
+    </div>
+
+    <div id="viewSobre" class="view" style="display:none">
+      <div class="hero">
+        <img src="assets/img/capa-sobre.webp" alt="Sobre" />
+        <div class="hero-content">
+          <div>
+            <h2 class="hero-title">Sobre</h2>
+            <p class="hero-sub">Conteúdo educativo e prático sobre chás, suplementos e rotinas simples.</p>
+          </div>
+          <div class="pill">Uso responsável</div>
+        </div>
+      </div>
+
+      <div style="height:12px"></div>
+      <div class="card" style="cursor:default">
+        <h3>Aviso de segurança</h3>
+        <p>Este app é educativo e não substitui acompanhamento profissional. Gestantes, lactantes, crianças pequenas, pessoas com doenças crônicas ou em uso de medicamentos devem buscar orientação antes de usar chás/suplementos com frequência.</p>
+        <div class="meta"><span class="badge">InaturaLife</span><span class="badge">v1</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="nav-item active" data-nav="home">Início</div>
+      <div class="nav-item" data-nav="chas">Chás</div>
+      <div class="nav-item" data-nav="suplementos">Suplementos</div>
+      <div class="nav-item" data-nav="protocolos">Protocolos</div>
+      <div class="nav-item" data-nav="sobre">Sobre</div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Título</h3>
+        <button class="btn ghost" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body">
+        <pre id="modalText"></pre>
+
+        <div class="form" id="modalForm" style="display:none">
+          <input id="emailInput" placeholder="Digite o email usado na compra (Hotmart)" />
+          <div class="help" id="modalHelp">
+            Para liberar o Premium, validamos se seu email aparece na lista de compradores (Google Sheets).
+          </div>
+        </div>
+      </div>
+      <div class="modal-actions" id="modalActions"></div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
